@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "Watch": {
+      "commandName": "Executable",
+      "executablePath": "dotnet.exe",
+      "commandLineArgs": "watch run",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_URLS": "https://localhost:1782;https://0.0.0.0:1782"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:1782"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11503",
+      "sslPort": 44315
+    }
+  }
+}
