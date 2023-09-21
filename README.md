@@ -1,7 +1,7 @@
 # DotnetWatchLock
 
 ## The problem
-This repository illustrate a problem using `dotnet watch` in collaboration of `net8`, `Visual Studio 2022` and `iterative source generators`. When rebuilding the application from de `dotnet watch` console, it seems that it tries to copy the generator dll which is locked by `Visual Studio 2022` which makes the build fails.
+This repository illustrate a problem using `dotnet watch` in collaboration of `net8`, `Visual Studio 2022` and `iterative source generators`. When rebuilding the application from the `dotnet watch` console, it seems that it tries to copy the generator dll which is locked by `Visual Studio 2022` which makes the build fails.
 
 This seems to only happens when
 * using `net8`.
